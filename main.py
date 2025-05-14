@@ -184,7 +184,7 @@ with gr.Blocks() as app:
 
     # Mode selection functions
     def set_demo_mode():
-        return "demo", "Demo mode selected. Upload a video and it will be quickly processed with a pre-made effect."
+        return "demo", "Demo mode selected."
 
     def set_test_mode():
         return "test", "Test mode selected. Upload a video for real processing."
